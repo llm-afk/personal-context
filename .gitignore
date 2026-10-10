@@ -1,0 +1,30 @@
+# Local private material; ignore rules are not encryption or access control.
+/.private/
+/.tmp/
+/.local/
+/.codex-log/
+/.codex/
+/.claude/
+/.gemini/
+/CLAUDE.local.md
+
+# Credentials and environment files.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+
+# Runtime and editor output.
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+desktop.ini
